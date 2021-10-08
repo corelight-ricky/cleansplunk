@@ -1,0 +1,1 @@
+Splunk uses special meanings for the field host, and source.  This conflicts with some default field names in Zeek fields, in the http log it has "host", and in files, it utilizes the field "source".  This package just does some minor renaming, http:host becomes http: httphost, and files:source becomes files:cl-source.  
