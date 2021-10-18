@@ -1,0 +1,3 @@
+[package]
+description = change fields in http and files: host to http, source to filessource 
+script_dir = scripts
